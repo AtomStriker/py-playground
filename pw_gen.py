@@ -51,7 +51,7 @@ def main():
         if pw_dir == "":
             pw_dir = "./pw.txt"
         try:
-            with open(pw_dir, "w") as pw_file:
+            with open(pw_dir, "a") as pw_file:
                 pw_file.write(password)
                 print(f"{colorama.Fore.GREEN}Password saved to {pw_dir}{colorama.Fore.RESET}")  # noqa
         except PermissionError:
