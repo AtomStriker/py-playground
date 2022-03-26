@@ -33,7 +33,7 @@ def main():
 
     for char in range(int(length)):
         password += random.choice(
-            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()")  # noqa
+            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()123456789")  # noqa
 
     print(f"{colorama.Fore.GREEN}Password: {colorama.Fore.LIGHTBLUE_EX}{password}{colorama.Fore.RESET}")  # noqa
 
