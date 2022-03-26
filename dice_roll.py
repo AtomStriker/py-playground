@@ -21,6 +21,8 @@ Usage:
 # very stupid way of giving the user a help list, but it works
 # I'm not sure how to do it better
 #  create an issue on github if you know how to do it better
+
+
 def main():
     try:
         # ! doesn't work
